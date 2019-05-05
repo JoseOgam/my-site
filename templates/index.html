@@ -123,17 +123,6 @@
                                 </li>
 
 
-
-
-                                <li>
-                                    <strong class="is-uppercase">Wordpress</strong>
-                                    <progress class="progress is-small" value="90" max="100">90</progress>
-                                    <strong>90%</strong>
-                                </li>
-
-
-
-
                                 <li>
                                     <strong class="is-uppercase">Django</strong>
                                     <progress class="progress is-small" value="70" max="100">50</progress>
@@ -197,7 +186,7 @@
             <div class="column">
                 <div class="content tools-list">
                     <h5 class="title">My Development Tools:</h5>
-                    <p>PhpStorm, Personal CSS Framework, Bulma, Pycharm,Sublime Text, Gitlab, Github.</p>
+                    <p>PhpStorm, Personal CSS Framework, Bulma, Pycharm,Sublime Text, Gitlab, Github,heroku.</p>
                 </div>
             </div>
         </div>
@@ -353,7 +342,8 @@
 
                                 <div class="testimonial-block">
 
-                                        <img class="avatar" src="" alt="Decco" />
+                                        <img class="avatar" src="{% static 'IMG_20180813_123239.jpg' %}"
+                                             alt="Decco" />
 
                                     <p class="reference">
                                         “His work approach, maturity and willingness to learn were definitively accomplishments, i would work with him again. ”                                    </p>
@@ -375,9 +365,9 @@
             <h6 class="has-text-centered has-text-white">Do you have an idea or simply want to chat?</h6>
             <h6 class="has-text-centered has-text-white">I'd love to hear from you.</h6>
         </div>
-        <form id="form" accept-charset="UTF-8" action="https://usebasin.com/f/dc73642ac527" method="POST">
+        <form id="form" accept-charset="UTF-8" action="" method="POST">
             <div class="columns is-centered">
-                <div class="column is-half">
+                <div class="column is-6">
                     <div class="field">
                         <label class="label">Name</label>
                         <div class="control is-expanded">
@@ -385,7 +375,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column is-half">
+                <div class="column is-centered">
                     <div class="field">
                         <label class="label">Email</label>
                         <div class="control is-expanded">
@@ -398,7 +388,7 @@
                 <div class="column">
                     <div class="field">
                         <label class="label">Message</label>
-                        <div class="control is-expanded">
+                        <div class="control is-half">
                             <textarea class="textarea is-medium" name="comment" rows="5" required></textarea>
                         </div>
                     </div>
@@ -418,28 +408,36 @@
             </div>
         </form>
     </div>
-</section><footer class="section hero is-dark has-text-centered" role="contentInfo"
-                  itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+</section>
+
+        <footer class="section hero is-dark has-text-centered" role="contentInfo"
+                  itemscope="itemscope" itemtype="">
     <div class="container is-narrow">
         <div class="social">
             <p class="field">
-                <a class="button is-medium is-rounded" href="https://twitter.com/farleymatters" target="_blank">
+                <a class="button is-medium is-rounded" href="https://twitter.com/joseogam" target="_blank">
                     <i class="fab fa-twitter"></i>
                 </a>
             </p>
             <p class="field">
-                <a class="button is-medium is-rounded" href="https://www.linkedin.com/in/jethro-may-za" target="_blank">
+                <a class="button is-medium is-rounded" href="https://www.linkedin.com/in/joseph-otieno-73a99b168/"
+                   target="_blank">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </p>
             <p class="field">
-                <a class="button is-medium is-rounded" href="https://github.com/jethromay" target="_blank">
+                <a class="button is-medium is-rounded" href="https://github.com/JoseOgam" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </p>
             <p class="field">
-                <a class="button is-medium is-rounded" href="mailto:hello@jethromay.com">
+                <a class="button is-medium is-rounded" href="mailto:jotienoochieng@gmail.com">
                     <i class="far fa-envelope"></i>
+                </a>
+            </p>
+            <p class="field">
+                <a class="button is-medium is-rounded" href="">
+                    <i class="fab fa-whatsapp"></i>
                 </a>
             </p>
         </div>
@@ -453,9 +451,8 @@
 
         <div id="scroll-top">
             <a class="scroll" title="Scroll Back To Top" href="#top">
-                <i class="fas fa-arrow-up"></i>
+                <i class="fas fa-arrow-up is-large"></i>
             </a>
         </div>
-    </div>
-</footer>
+ </footer>
 {% endblock %}
