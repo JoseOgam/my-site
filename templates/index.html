@@ -6,7 +6,7 @@
 
     <main role="main"><section class="intro">
     <div class="intro-overlay"></div>
-    <div class="" style="background-color:  #ff5257">
+    <div class="is-size-1" style="background-color:  #ff5257" >
         <h3 class="intro-subtitle has-text-centered">Hello, World.</h3>
         <h1 class="intro-title title has-text-centered-widescreen">I'm Joseph Otieno.</h1>
         <p class="intro-position has-text-centered">
@@ -283,7 +283,7 @@
                     <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
                         <div class="portfolio-item-1">
                             <figure class="image is-3by2">
-                                <img class="portfolio-thumb" src="" alt="chill">
+                                <img class="portfolio-thumb" src="{% static 'bulma/images/lion.jpg' %}" alt="chill">
                                 <div class="overlay">
                                     <div class="content">
                                         <p class="text">My personal website built with Bulma and django.</p>
@@ -295,7 +295,7 @@
                     <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
                         <div class="portfolio-item-2">
                             <figure class="image is-3by2">
-                                <img class="portfolio-thumb" src="" alt="chill">
+                                <img class="portfolio-thumb" src="{% static 'bulma/images/mara.jpg' %}" alt="chill">
                                 <div class="overlay">
                                     <div class="content">
                                         <p class="text">Under Construction.</p>
@@ -323,8 +323,8 @@
         </div>
         <div class="support">
             <h5>Want to show appreciation or support future projects?</h5>
-            <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/Px9T5qY6j">
-                <img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee">
+            <a class="bmc-button" target="_blank" href="https://www.paypal.com/ke/home">
+                <img src="{% static 'bulma/images/paypal.png' %}" alt="Buy me a coffee" height="50px" width="50px">
                 <span style="margin-left:5px">Buy me a coffee</span>
             </a>
         </div>
@@ -342,11 +342,11 @@
 
                                 <div class="testimonial-block">
 
-                                        <img class="avatar" src="{% static 'IMG_20180813_123239.jpg' %}"
+                                        <img class="avatar" src="{% static 'bulma/images/ogam.jpg' %}"
                                              alt="Decco" />
 
                                     <p class="reference">
-                                        “His work approach, maturity and willingness to learn were definitively accomplishments, i would work with him again. ”                                    </p>
+                                        "waiting for views"</p>
                                     <h5>Derrick Omondi</h5>
                                     <p>Software Developer, Cognition Solutions</p>
                                 </div>
@@ -411,7 +411,7 @@
 </section>
 
         <footer class="section hero is-dark has-text-centered" role="contentInfo"
-                  itemscope="itemscope" itemtype="">
+                  itemscope="itemscope" itemtype="social">
     <div class="container is-narrow">
         <div class="social">
             <p class="field">
@@ -436,7 +436,7 @@
                 </a>
             </p>
             <p class="field">
-                <a class="button is-medium is-rounded" href="">
+                <a class="button is-medium is-rounded" href="https://web.whatsapp.com/">
                     <i class="fab fa-whatsapp"></i>
                 </a>
             </p>
